@@ -24,9 +24,25 @@
 
 .toolbar-class {
     border: 1px solid #ccc;
+    color: aquamarine;
 }
 
 .preview {
     padding: 1rem;
     margin-top: 1rem;
+}
+
+.rdw-image-modal {
+    position: absolute;
+    top: 35px;
+    left: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 435px;
+    border: 1px solid #F1F1F1;
+    padding: 15px;
+    border-radius: 2px;
+    z-index: 100;
+    background: white;
+    box-shadow: 3px 3px 5px #BFBDBD;
 }
